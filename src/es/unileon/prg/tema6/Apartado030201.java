@@ -182,9 +182,9 @@ public class Apartado030201 extends Apartado {
 		
 		for ()
 		{
-			System.out.print("Introduce la base del rectangulo "+i+" :");
+			System.out.println("Introduce la base del rectangulo "+i+" :");
 			base=Teclado.readInteger();
-			System.out.print("Introduce la altura del rectangulo "+i+" :");
+			System.out.println("Introduce la altura del rectangulo "+i+" :");
 			altura=Teclado.readInteger();
 			rectangulo=new Rectangulo(base,altura);
 			
