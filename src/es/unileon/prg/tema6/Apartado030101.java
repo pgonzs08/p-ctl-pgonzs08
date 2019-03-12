@@ -171,9 +171,10 @@ public class Apartado030101 extends Apartado {
 	/**
 	 * Instruccion if - Ejercicio6.
 	 *
-	 * Modificar el codigo del ejercicio 5 de forma que el resultado sea el mismo pero solo 
-	 * sea necesario utilizar una sentencia if.
-	 *
+	 * Modificar el código del ejercicio 5 de forma que el resultado 
+	 * sea la nota media de las tres notas solo si las 3 están aprobadas 
+	 * y cero en caso contrario. Se debe resolver con una sola sentencia  if. 
+	 * 
 	 */
 	public void ejercicio06() {
 		cabecera("06", "");

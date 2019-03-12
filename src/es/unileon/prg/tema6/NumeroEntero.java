@@ -117,7 +117,7 @@ public class NumeroEntero {
 	
 	
 	/* -- Inicio modificacion del ejercicio02 Apartado030102.
-	 * int comapreTo(NumeroEntero n){
+	 * int compareTo(NumeroEntero n){
 	 * 
 	 * 
 	 * }

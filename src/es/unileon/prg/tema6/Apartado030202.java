@@ -59,8 +59,6 @@ public class Apartado030202 extends Apartado {
 	 * Nota: similar al ejercicio06() de la clase Apartado030201 pero utilizando la sentencia while
 	 * y sin suponer que el primer numero es siempre par)
 	 * 
-	 * Nota : Los numeros enteros se manejaran como objetos la clase NumeroEntero
-	 * 
 	 */
 	public void ejercicio03() {
 		cabecera("03", "");
