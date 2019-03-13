@@ -1,4 +1,5 @@
 package es.unileon.prg.tema6;
+
 /**
  * Clase que representa un alumno.
  * 
@@ -11,17 +12,17 @@ public class Alumno {
 	 * 
 	 * @see String
 	 */
-	private String _niu;
+	private String niu;
 	/**
 	 * Nombre del alumno
 	 * 
 	 * @see String
 	 */
-	private String _nombre;
+	private String nombre;
 	/**
 	 * Nota del alumno
 	 */
-	private float _nota;
+	private float nota;
 
 	/**
 	 * Constructor de la clase. Crea un alumno con la informacion recibida
@@ -32,8 +33,8 @@ public class Alumno {
 	 *            Nombre del alumno
 	 */
 	public Alumno(String niu, String nombre) {
-		_niu = niu;
-		_nombre = nombre;
+		this.niu = niu;
+		this.nombre = nombre;
 	}
 
 	/**
@@ -43,32 +44,27 @@ public class Alumno {
 	 *            Nota del alumno
 	 */
 	public void asignarNota(float nota) {
-		_nota = nota;
+		this.nota = nota;
 	}
 
-	
-	
-	//Inicio modificacion Apartado 030101 - ejercicio01
-	
-	
-	//Fin modificacion Apartado 030101 - ejercicio01
-	
-	
-	
-	
+	// Inicio modificacion Apartado 030101 - ejercicio01
+
+	// Fin modificacion Apartado 030101 - ejercicio01
+
 	/*
 	 * (non-Javadoc)
+	 * 
 	 * @see java.lang.Object#toString()
 	 */
-	
+
 	public String toString() {
 		StringBuffer salida = new StringBuffer();
-		
-		salida.append("NIU: "+_niu+" ");
-		salida.append("Nombre: "+_nombre+" ");
-		salida.append("Nota: "+_nota+" ");
-		
+
+		salida.append("NIU: " + this.niu + " ");
+		salida.append("Nombre: " + this.nombre + " ");
+		salida.append("Nota: " + this.nota + " ");
+
 		return salida.toString();
 	}
-	
+
 }
